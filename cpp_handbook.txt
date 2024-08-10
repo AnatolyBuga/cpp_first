@@ -1,0 +1,6 @@
+C:\msys64\mingw64\bin\g++ main.cpp -> main.o
+g++ -std=c++23 main.cpp square.cpp struct_simple.cpp -> a.exe
+C:\msys64\mingw64\bin\g++ -E main.cpp -- to see what preprocessor does
+g++ -DDEBUG main.cpp defines DEBUG
+g++ -o my_prog main.o square.o
+g++ -o my_prog -v main.cpp square.cpp
